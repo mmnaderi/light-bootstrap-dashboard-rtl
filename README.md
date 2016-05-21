@@ -80,3 +80,7 @@ Live Preview: <http://demos.creative-tim.com/light-bootstrap-dashboard>
 Page on github: <https://github.com/timcreative/light-bootstrap-dashboard>
 
 Page on CreativeTim: <http://www.creative-tim.com/product/light-bootstrap-dashboard>
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmnaderi/light-bootstrap-dashboard-rtl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
