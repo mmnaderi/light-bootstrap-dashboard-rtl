@@ -1,4 +1,4 @@
-# Light Bootstrap Dashboard - RTL
+# Light Bootstrap Dashboard - RTL [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmnaderi/light-bootstrap-dashboard-rtl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
 This is the RTL version of "[Light Bootstrap Dashboard](https://github.com/timcreative/light-bootstrap-dashboard) by [CreativeTim](http://www.creative-tim.com)".
 
