@@ -5,7 +5,7 @@
 	<link rel="icon" type="image/png" href="assets/img/favicon.ico">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-	<title>Light Bootstrap Dashboard by Creative Tim</title>
+	<title>تم لایت</title>
 
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
@@ -13,12 +13,18 @@
 
     <!-- Bootstrap core CSS     -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
+	
+		<!-- Bootstrap RTL core CSS     -->
+    <link href="assets/css/bootstrap-rtl.min.css" rel="stylesheet" />
 
     <!-- Animation library for notifications   -->
     <link href="assets/css/animate.min.css" rel="stylesheet"/>
 
     <!--  Light Bootstrap Table core CSS    -->
     <link href="assets/css/light-bootstrap-dashboard.css" rel="stylesheet"/>
+	
+	  <!--  Light Bootstrap RTL Version CSS    -->
+    <link href="assets/css/light-bootstrap-dashboard-rtl.css" rel="stylesheet"/>
 
 
     <!--  CSS for Demo Purpose, don't include it in your project     -->
@@ -28,6 +34,7 @@
     <!--     Fonts and icons     -->
     <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Roboto:400,700,300' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/earlyaccess/droidarabickufi.css' rel='stylesheet' type='text/css'>
     <link href="assets/css/pe-icon-7-stroke.css" rel="stylesheet" />
 </head>
 <body>
@@ -41,7 +48,7 @@
     	<div class="sidebar-wrapper">
             <div class="logo">
                 <a href="http://www.creative-tim.com" class="simple-text">
-                    Creative Tim
+                    لایت
                 </a>
             </div>
 
@@ -49,49 +56,49 @@
                 <li>
                     <a href="dashboard.html">
                         <i class="pe-7s-graph"></i>
-                        <p>Dashboard</p>
+                        <p>داشبورد</p>
                     </a>
                 </li>
                 <li class="active">
                     <a href="user.html">
                         <i class="pe-7s-user"></i>
-                        <p>User Profile</p>
+                        <p>پروفایل</p>
                     </a>
                 </li>
                 <li>
                     <a href="table.html">
                         <i class="pe-7s-note2"></i>
-                        <p>Table List</p>
+                        <p>لیست</p>
                     </a>
                 </li>
                 <li>
                     <a href="typography.html">
                         <i class="pe-7s-news-paper"></i>
-                        <p>Typography</p>
+                        <p>تایپوگرافی</p>
                     </a>
                 </li>
                 <li>
                     <a href="icons.html">
                         <i class="pe-7s-science"></i>
-                        <p>Icons</p>
+                        <p>آیکون‌ها</p>
                     </a>
                 </li>
                 <li>
                     <a href="maps.html">
                         <i class="pe-7s-map-marker"></i>
-                        <p>Maps</p>
+                        <p>نقشه ها</p>
                     </a>
                 </li>
                 <li>
                     <a href="notifications.html">
                         <i class="pe-7s-bell"></i>
-                        <p>Notifications</p>
+                        <p>اعلانات</p>
                     </a>
                 </li>
-				<li class="active-pro">
+								<li class="active-pro">
                     <a href="upgrade.html">
                         <i class="pe-7s-rocket"></i>
-                        <p>Upgrade to PRO</p>
+                        <p>ارتقا به پیشرفته</p>
                     </a>
                 </li>
             </ul>
@@ -103,15 +110,15 @@
             <div class="container-fluid">
                 <div class="navbar-header">
                     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2">
-                        <span class="sr-only">Toggle navigation</span>
+                        <span class="sr-only">تعویض ناوبری</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                     </button>
-                    <a class="navbar-brand" href="#">Profile</a>
+                    <a class="navbar-brand" href="#">پروفایل</a>
                 </div>
                 <div class="collapse navbar-collapse">
-                    <ul class="nav navbar-nav navbar-left">
+                    <ul class="nav navbar-nav navbar-right">
                         <li>
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                 <i class="fa fa-dashboard"></i>
@@ -121,14 +128,12 @@
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                                     <i class="fa fa-globe"></i>
                                     <b class="caret"></b>
-                                    <span class="notification">5</span>
+                                    <span class="notification">۳</span>
                               </a>
                               <ul class="dropdown-menu">
-                                <li><a href="#">Notification 1</a></li>
-                                <li><a href="#">Notification 2</a></li>
-                                <li><a href="#">Notification 3</a></li>
-                                <li><a href="#">Notification 4</a></li>
-                                <li><a href="#">Another notification</a></li>
+                                <li><a href="#">اعلان 1</a></li>
+                                <li><a href="#">اعلان 2</a></li>
+                                <li><a href="#">اعلانی دیگر</a></li>
                               </ul>
                         </li>
                         <li>
@@ -138,30 +143,30 @@
                         </li>
                     </ul>
 
-                    <ul class="nav navbar-nav navbar-right">
+                    <ul class="nav navbar-nav navbar-left">
                         <li>
                            <a href="">
-                               Account
+                               حساب کاربری
                             </a>
                         </li>
                         <li class="dropdown">
                               <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                    Dropdown
+                                    کشویی
                                     <b class="caret"></b>
                               </a>
                               <ul class="dropdown-menu">
-                                <li><a href="#">Action</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something</a></li>
-                                <li><a href="#">Another action</a></li>
-                                <li><a href="#">Something</a></li>
+                                <li><a href="#">واکنش</a></li>
+                                <li><a href="#">واکنشی دیگر</a></li>
+                                <li><a href="#">چیزی</a></li>
+                                <li><a href="#">واکنش دیگر</a></li>
+                                <li><a href="#">چیزی</a></li>
                                 <li class="divider"></li>
-                                <li><a href="#">Separated link</a></li>
+                                <li><a href="#">لینک جداشده</a></li>
                               </ul>
                         </li>
                         <li>
                             <a href="#">
-                                Log out
+                                خروج
                             </a>
                         </li>
                     </ul>
@@ -176,27 +181,27 @@
                     <div class="col-md-8">
                         <div class="card">
                             <div class="header">
-                                <h4 class="title">Edit Profile</h4>
+                                <h4 class="title">ویرایش پروفایل</h4>
                             </div>
                             <div class="content">
                                 <form>
                                     <div class="row">
                                         <div class="col-md-5">
                                             <div class="form-group">
-                                                <label>Company (disabled)</label>
-                                                <input type="text" class="form-control" disabled placeholder="Company" value="Creative Code Inc.">
+                                                <label>شرکت (غیر فعال)</label>
+                                                <input type="text" class="form-control" disabled placeholder="Company" value="کد شرکت">
                                             </div>
                                         </div>
                                         <div class="col-md-3">
                                             <div class="form-group">
-                                                <label>Username</label>
-                                                <input type="text" class="form-control" placeholder="Username" value="michael23">
+                                                <label>نام کاربری</label>
+                                                <input type="text" class="form-control" placeholder="یوزرنیم" value="michael23">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <label for="exampleInputEmail1">Email address</label>
-                                                <input type="email" class="form-control" placeholder="Email">
+                                                <label for="exampleInputEmail1">آدرس ایمیل</label>
+                                                <input type="email" class="form-control" placeholder="ایمیل">
                                             </div>
                                         </div>
                                     </div>
@@ -204,14 +209,14 @@
                                     <div class="row">
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label>First Name</label>
-                                                <input type="text" class="form-control" placeholder="Company" value="Mike">
+                                                <label>نام</label>
+                                                <input type="text" class="form-control" placeholder="نام" value="مایک">
                                             </div>
                                         </div>
                                         <div class="col-md-6">
                                             <div class="form-group">
-                                                <label>Last Name</label>
-                                                <input type="text" class="form-control" placeholder="Last Name" value="Andrew">
+                                                <label>نام خانوادگی</label>
+                                                <input type="text" class="form-control" placeholder="نام خانوادگی" value="اندرو">
                                             </div>
                                         </div>
                                     </div>
@@ -219,8 +224,8 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>Address</label>
-                                                <input type="text" class="form-control" placeholder="Home Address" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09">
+                                                <label>آدرس</label>
+                                                <input type="text" class="form-control" placeholder="آدرس خانه" value="Bld Mihail Kogalniceanu, nr. 8 Bl 1, Sc 1, Ap 09">
                                             </div>
                                         </div>
                                     </div>
@@ -228,20 +233,20 @@
                                     <div class="row">
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <label>City</label>
-                                                <input type="text" class="form-control" placeholder="City" value="Mike">
+                                                <label>شهر</label>
+                                                <input type="text" class="form-control" placeholder="شهر" value="اصفهان">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <label>Country</label>
-                                                <input type="text" class="form-control" placeholder="Country" value="Andrew">
+                                                <label>کشور</label>
+                                                <input type="text" class="form-control" placeholder="کشور" value="ایران">
                                             </div>
                                         </div>
                                         <div class="col-md-4">
                                             <div class="form-group">
-                                                <label>Postal Code</label>
-                                                <input type="number" class="form-control" placeholder="ZIP Code">
+                                                <label>کد پستی</label>
+                                                <input type="number" class="form-control" placeholder="کد پستی">
                                             </div>
                                         </div>
                                     </div>
@@ -249,13 +254,13 @@
                                     <div class="row">
                                         <div class="col-md-12">
                                             <div class="form-group">
-                                                <label>About Me</label>
-                                                <textarea rows="5" class="form-control" placeholder="Here can be your description" value="Mike">Lamborghini Mercy, Your chick she so thirsty, I'm in that two seat Lambo.</textarea>
+                                                <label>درباره من</label>
+                                                <textarea rows="5" class="form-control" placeholder="اینجا میتواند توضیحات شما باشد." value="Mike">لامبورگینی رحمت، جوجه شما او تا تشنه، من در آن دو صندلی لامبورگینی است.</textarea>
                                             </div>
                                         </div>
                                     </div>
 
-                                    <button type="submit" class="btn btn-info btn-fill pull-right">Update Profile</button>
+                                    <button type="submit" class="btn btn-info btn-fill pull-left">آپدیت پروفایل</button>
                                     <div class="clearfix"></div>
                                 </form>
                             </div>
@@ -271,14 +276,12 @@
                                      <a href="#">
                                     <img class="avatar border-gray" src="assets/img/faces/face-3.jpg" alt="..."/>
 
-                                      <h4 class="title">Mike Andrew<br />
+                                      <h4 class="title">مایک اندرو<br />
                                          <small>michael24</small>
                                       </h4>
                                     </a>
                                 </div>
-                                <p class="description text-center"> "Lamborghini Mercy <br>
-                                                    Your chick she so thirsty <br>
-                                                    I'm in that two seat Lambo"
+                                <p class="description text-center"> " لامبورگینی رحمت<BR>  جوجه خود را او  تا تشنه <BR>من در آن لامبورگینی دو صندلی هستم "
                                 </p>
                             </div>
                             <hr>
@@ -298,32 +301,32 @@
 
         <footer class="footer">
             <div class="container-fluid">
-                <nav class="pull-left">
+                <nav class="pull-right">
                     <ul>
                         <li>
                             <a href="#">
-                                Home
+                                خانه
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                Company
+                                شرکت
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                                Portfolio
+                                نمونه کار ها
                             </a>
                         </li>
                         <li>
                             <a href="#">
-                               Blog
+                               بلاگ
                             </a>
                         </li>
                     </ul>
                 </nav>
-                <p class="copyright pull-right">
-                    &copy; 2016 <a href="http://www.creative-tim.com">Creative Tim</a>, made with love for a better web
+                <p class="copyright pull-left">
+                    ۱۳۹۵ &copy; راست‌به‌چپ شده توسط <a href="http://mmnaderi.ir">محمد مهدی نادری</a>
                 </p>
             </div>
         </footer>

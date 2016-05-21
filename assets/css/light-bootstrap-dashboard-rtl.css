@@ -1,0 +1,188 @@
+/* Set Fonts */
+* {
+  font-family: 'Droid Arabic Kufi'!important;
+}
+
+.fa {
+  font-family: 'FontAwesome'!important;
+}
+
+[class^="pe-7s-"], [class*=" pe-7s-"] {
+	font-family: 'Pe-icon-7-stroke'!important
+}
+
+/* Sidebar & main panel */
+
+.sidebar {
+  left: auto;
+  right: 0px;
+}
+
+.main-panel {
+  float: left;
+}
+
+.sidebar .nav i {
+  float: right;
+  margin-right: 0;
+  margin-left: 15px;
+}
+
+
+/*.alert span[data-notify="message"] {
+	margin-left: 0px;
+  margin-right: 50px; 
+}*/
+
+.alert.alert-with-icon {
+  padding-left: auto;
+	padding-right: 65px;
+}
+
+.alert span[data-notify="icon"] {
+  left: auto;
+  right: 15px;
+}
+
+.alert button.close {
+  right: auto!important;
+  left: 10px!important;
+}
+
+@media (min-width: 768px) {
+	.navbar-right {
+		float: right!important;
+		margin-right: auto;
+	}
+	.navbar-left {
+		margin-left: -15px;
+	}
+	.navbar-right .dropdown-menu {
+    left: auto!important;
+    right: 0!important;
+	}
+}
+
+.caret {
+	margin-top: 6px;
+	margin-right 0;
+}
+
+.dropdown-menu {
+    left: 0!important;
+    right: auto!important;
+}
+
+.dropdown-menu .divider {
+    height: 0;
+    margin: auto;
+}
+
+
+body > .navbar-collapse {
+  right: auto!important;
+	left: 0!important;
+  text-align: right;
+  -webkit-transform: translate3d(-250px, 0, 0);
+  -moz-transform: translate3d(-250px, 0, 0);
+  -o-transform: translate3d(-250px, 0, 0);
+  -ms-transform: translate3d(-250px, 0, 0);
+  transform: translate3d(-250px, 0, 0);
+}
+
+
+.nav-open .wrapper {
+  -webkit-transform: translate3d(250px, 0, 0);
+  -moz-transform: translate3d(250px, 0, 0);
+  -o-transform: translate3d(250px, 0, 0);
+  -ms-transform: translate3d(250px, 0, 0);
+  transform: translate3d(250px, 0, 0);
+}
+
+
+/* Navigator */
+.navbar .navbar-nav .notification {
+  left: auto;
+  right: 7px;
+}
+
+.dropdown-menu {
+    left: auto;
+    right: 0;
+    float: right;
+}
+
+
+
+
+
+/*          Changes for small display      */
+@media (max-width: 991px) {
+  .navbar-header .navbar-toggle {
+    margin: 10px 0 10px 15px;
+  }
+  .navbar-nav .open .dropdown-menu > li > a {
+    padding: 15px 50px 5px 15px!important;
+  }
+  .navbar-nav .open .dropdown-menu > li:first-child > a {
+    padding: 5px 50px 5px 15px;
+  }
+  .navbar-nav .open .dropdown-menu > li:last-child > a {
+    padding: 15px 50px 25px 15px;
+  }
+  #bodyClick {
+    right: auto;
+    left: 250px;
+  }
+  .navbar-collapse [class^="pe-7s-"] {
+    float: right;
+    margin-left: 10px;
+		margin-right: auto;
+  }
+	[class*="navbar-"] .navbar-nav .dropdown > a:hover .caret {
+    border-bottom-color: #FFF;
+    border-top-color: #FFF;
+	}
+	.footer nav.pull-right {
+    float: none !important;
+	}
+}
+
+@media (min-width: 992px) {
+	.card form [class*="col-"] {
+    padding: 6px;
+  }
+  .card form [class*="col-"]:first-child {
+    padding-right: 15px;
+  }
+  .card form [class*="col-"]:last-child {
+		padding-left: 15px;
+  }
+	.footer:not(.footer-big) nav > ul li:first-child {
+		margin-right: 0;
+  }
+	.footer:not(.footer-big) nav > ul li {
+		margin-left: 0;
+    margin-right: 20px;
+    float: right;
+	}
+
+  /*.table-full-width {
+    margin-left: -15px;
+    margin-right: -15px;
+  }
+
+  .table-responsive {
+    overflow: visible;
+  }*/
+}
+/*@media (max-width: 991px) {
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch;
+  }
+}*/
