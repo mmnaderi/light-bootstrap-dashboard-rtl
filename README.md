@@ -13,6 +13,7 @@ It comes with 6 filter colors for the sidebar (“black”, “azure”,”green
 ## Quick start
 
 - [Download from Github](https://github.com/mmnaderi/light-bootstrap-dashboard-rtl/archive/rtl.zip)
+
 or
 - Clone the repo: `git clone https://github.com/mmnaderi/light-bootstrap-dashboard-rtl.git`.
 
@@ -79,5 +80,3 @@ Live Preview: <http://demos.creative-tim.com/light-bootstrap-dashboard>
 Page on github: <https://github.com/timcreative/light-bootstrap-dashboard>
 
 Page on CreativeTim: <http://www.creative-tim.com/product/light-bootstrap-dashboard>
-
-More products from Creative Tim: <http://www.creative-tim.com/products>
