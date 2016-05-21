@@ -12,9 +12,9 @@ It comes with 6 filter colors for the sidebar (“black”, “azure”,”green
 
 ## Quick start
 
-- [Download from Github](https://github.com/mmnaderi/light-bootstrap-dashboard-rtl/archive/rtl.zip)
+Quick start options:
 
-or
+- [Download from Github](https://github.com/mmnaderi/light-bootstrap-dashboard-rtl/archive/rtl.zip)
 - Clone the repo: `git clone https://github.com/mmnaderi/light-bootstrap-dashboard-rtl.git`.
 
 
