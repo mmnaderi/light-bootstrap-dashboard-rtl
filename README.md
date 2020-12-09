@@ -1,5 +1,7 @@
 # Light Bootstrap Dashboard - RTL [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/mmnaderi/light-bootstrap-dashboard-rtl/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 
+![Screenshot (114)-small](https://user-images.githubusercontent.com/2914924/101623742-20e95000-3a2e-11eb-9e26-d1243a8fea45.png)
+
 This is the RTL version of "[Light Bootstrap Dashboard](https://github.com/timcreative/light-bootstrap-dashboard) by [CreativeTim](http://www.creative-tim.com)".
 
 about this template:
